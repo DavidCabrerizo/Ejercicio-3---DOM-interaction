@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peluco</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="normalize.css">
+    
+</head>
+<header>
+    <div class="logo">
+        <a href="/index.html"><img class="fotoLogo" src="./img/logo2.png"
+                alt="Logo marca relojes Peluco, una letra pe con la palabra abajo escrita"></a>
+    </div>
+    <button id="abrir" class="open-menu"><i class="bi bi-list"></i></button>
+    
+    <nav class="nav" id="nav">
+        <button id="cerrar" class="close-menu"><i class="bi bi-x-lg"></i></button>
+        <ul class="nav-list">
+            <li>                    
+                <a href="./relojes.html" class="relojes">Relojes</a>  
+            </li>
+            <li>                   
+                <a href="#" class="ultimasNovedades">Ultimas Novedades</a>
+            </li>
+            <li>                    
+                <a href="./patrocinio.html" class="patrocinios" >Patrocinios</a>  
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <section aria-label="Newest Photos">
+        <div class="carrusel" data-carrusel>
+            <button class="carrusel-button prev" data-carrusel-button="prev">&#8656;</button>
+            <button class="carrusel-button next" data-carrusel-button="next">&#8658;</button>
+
+            <ul data-slide>
+                <li class="slide" data-active>
+                    <img src="./img/carrusel/pic1.jpg" alt="reloj1">
+                </li>
+                <li class="slide">
+                    <img src="./img/carrusel/pic2.jpg" alt="reloj2">
+                </li>
+                <li class="slide">
+                    <img src="./img/carrusel/pic3.jpg" alt="reloj3">
+                </li>
+                <li class="slide">
+                    <img src="./img/carrusel/pic4.jpg" alt="reloj4">
+                </li>
+                <li class="slide">
+                    <img src="./img/carrusel/pic5.jpg" alt="reloj5">
+                </li>
+                <li class="slide">
+                    <img src="./img/carrusel/pic6.jpg" alt="reloj6">
+                </li>
+                <li class="slide">
+                    <img src="./img/carrusel/pic7.jpg" alt="reloj7">
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+
+    
+</body>
+<footer>Est. 1984</footer>
+
+</html>
